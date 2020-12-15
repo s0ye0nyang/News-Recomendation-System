@@ -1,7 +1,8 @@
-# News-Recomendation-System
+# Keyword Detection System based on Naver News Data
 #### Big data term project
 --------------------------------
-> Files
+뉴스에서 핵심 키워드를 추출하는 시스템
+--------------------------------
 - NEWS.csv  //수집한 뉴스 데이터
   ```
   pandas Dataframe
