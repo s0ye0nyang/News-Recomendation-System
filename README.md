@@ -2,20 +2,16 @@
 #### Big data term project
 --------------------------------
 > Files
-- NEWS.csv
- - 수집한 뉴스 데이터
+- NEWS.csv  //수집한 뉴스 데이터
   ```
   pandas Dataframe
   { 제목: 기사링크, 내용: 본문 텍스트 }
   ```
-- stopwords-ko.txt 
- - 한국어 불용어 목록
-- exceptionwords.txt
- - 쪼개지면 안되는 단어들 목록
-- news_crawler.ipybb
- - 뉴스 수집
-- word2vec.ipynb
- - 데이터 전처리 및 워드 임베딩 
+>
+- stopwords-ko.txt // 한국어 불용어 목록
+- exceptionwords.txt // 쪼개지면 안되는 단어들 목록
+- news_crawler.ipynb // 뉴스 수집
+- word2vec.ipynb // 데이터 전처리 및 워드 임베딩 
   ```
   def clean_text(texts): # 한글 제외한 나머지 문자 제거
     corpus = []
